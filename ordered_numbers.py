@@ -27,7 +27,7 @@ def ordered_numbers(first_number, second_number, third_number):
             lowest_number = second_number
         else:
             middle_number = second_number
-            lowest_number = third_number
+            lowest_number = first_number
 
     print(f"Sus numeros ordenados de mayor a menor son los siguientes: {highest_number}, {middle_number}, {lowest_number}")
 
